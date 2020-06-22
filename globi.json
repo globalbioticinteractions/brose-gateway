@@ -1,0 +1,198 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "url" : "https://idata.idiv.de/mmm/ShowMultimediaData/getFile/?path=Datasets%255c283%255c283_2_FoodWebDataBase_2018_12_10.csv",
+  "dcterms:bibliographicCitation" : "Brose, U. (2018). GlobAL daTabasE of traits and food Web Architecture (GATEWAy) version 1.0 [Data set]. German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig. https://doi.org/10.25829/IDIV.283-3-756",
+  "delimiter" : ",",
+  "headerRowCount" : 1,
+  "null" : [ "", "NA", "-999" ],
+  "tableSchema" : {
+    "columns" : [ {
+      "name" : "autoID",
+      "titles" : "autoID",
+      "datatype" : "string"
+    }, {
+      "name" : "referenceCitation",
+      "titles" : "link.citation",
+      "datatype" : "string"
+    }, {
+      "name" : "link.methodology",
+      "titles" : "link.methodology",
+      "datatype" : "string"
+    }, {
+      "name" : "interactionTypeName",
+      "titles" : "interaction.type",
+      "datatype" : "string"
+    }, {
+      "name" : "interaction.dimensionality",
+      "titles" : "interaction.dimensionality",
+      "datatype" : "string"
+    }, {
+      "name" : "interaction.classification",
+      "titles" : "interaction.classification",
+      "datatype" : "string"
+    }, {
+      "name" : "sourceTaxonName",
+      "titles" : "con.taxonomy",
+      "datatype" : "string"
+    }, {
+      "name" : "sourceTaxonRankName",
+      "titles" : "con.taxonomy.level",
+      "datatype" : "string"
+    }, {
+      "name" : "con.common",
+      "titles" : "con.common",
+      "datatype" : "string"
+    }, {
+      "name" : "sourceLifeStageName",
+      "titles" : "con.lifestage",
+      "datatype" : "string"
+    }, {
+      "name" : "con.metabolic.type",
+      "titles" : "con.metabolic.type",
+      "datatype" : "string"
+    }, {
+      "name" : "con.movement.type",
+      "titles" : "con.movement.type",
+      "datatype" : "string"
+    }, {
+      "name" : "con.size.citation",
+      "titles" : "con.size.citation",
+      "datatype" : "string"
+    }, {
+      "name" : "con.size.method",
+      "titles" : "con.size.method",
+      "datatype" : "string"
+    }, {
+      "name" : "con.length.min.cm.",
+      "titles" : "con.length.min.cm.",
+      "datatype" : "string"
+    }, {
+      "name" : "con.length.mean.cm.",
+      "titles" : "con.length.mean.cm.",
+      "datatype" : "string"
+    }, {
+      "name" : "con.length.max.cm.",
+      "titles" : "con.length.max.cm.",
+      "datatype" : "string"
+    }, {
+      "name" : "con.mass.min.g.",
+      "titles" : "con.mass.min.g.",
+      "datatype" : "string"
+    }, {
+      "name" : "con.mass.mean.g.",
+      "titles" : "con.mass.mean.g.",
+      "datatype" : "string"
+    }, {
+      "name" : "con.mass.max.g.",
+      "titles" : "con.mass.max.g.",
+      "datatype" : "string"
+    }, {
+      "name" : "targetTaxonName",
+      "titles" : "res.taxonomy",
+      "datatype" : "string"
+    }, {
+      "name" : "targetTaxonRankName",
+      "titles" : "res.taxonomy.level",
+      "datatype" : "string"
+    }, {
+      "name" : "res.common",
+      "titles" : "res.common",
+      "datatype" : "string"
+    }, {
+      "name" : "targetLifeStageName",
+      "titles" : "res.lifestage",
+      "datatype" : "string"
+    }, {
+      "name" : "res.metabolic.type",
+      "titles" : "res.metabolic.type",
+      "datatype" : "string"
+    }, {
+      "name" : "res.movement.type",
+      "titles" : "res.movement.type",
+      "datatype" : "string"
+    }, {
+      "name" : "res.size.citation",
+      "titles" : "res.size.citation",
+      "datatype" : "string"
+    }, {
+      "name" : "res.size.method",
+      "titles" : "res.size.method",
+      "datatype" : "string"
+    }, {
+      "name" : "res.length.min.cm.",
+      "titles" : "res.length.min.cm.",
+      "datatype" : "string"
+    }, {
+      "name" : "res.length.mean.cm.",
+      "titles" : "res.length.mean.cm.",
+      "datatype" : "string"
+    }, {
+      "name" : "res.length.max.cm.",
+      "titles" : "res.length.max.cm.",
+      "datatype" : "string"
+    }, {
+      "name" : "res.mass.min.g.",
+      "titles" : "res.mass.min.g.",
+      "datatype" : "string"
+    }, {
+      "name" : "res.mass.mean.g.",
+      "titles" : "res.mass.mean.g.",
+      "datatype" : "string"
+    }, {
+      "name" : "res.mass.max.g.",
+      "titles" : "res.mass.max.g.",
+      "datatype" : "string"
+    }, {
+      "name" : "localityName",
+      "titles" : "geographic.location",
+      "datatype" : "string"
+    }, {
+      "name" : "decimalLongitude",
+      "titles" : "longitude",
+      "datatype" : "string"
+    }, {
+      "name" : "decimalLatitude",
+      "titles" : "latitude",
+      "datatype" : "string"
+    }, {
+      "name" : "ecosystem.type",
+      "titles" : "ecosystem.type",
+      "datatype" : "string"
+    }, {
+      "name" : "study.site",
+      "titles" : "study.site",
+      "datatype" : "string"
+    }, {
+      "name" : "altitude",
+      "titles" : "altitude",
+      "datatype" : "string"
+    }, {
+      "name" : "depth",
+      "titles" : "depth",
+      "datatype" : "string"
+    }, {
+      "name" : "eventDate",
+      "titles" : "sampling.time",
+      "datatype" : "string"
+    }, {
+      "name" : "sampling.start.year",
+      "titles" : "sampling.start.year",
+      "datatype" : "string"
+    }, {
+      "name" : "sampling.end.year",
+      "titles" : "sampling.end.year",
+      "datatype" : "string"
+    }, {
+      "name" : "notes",
+      "titles" : "notes",
+      "datatype" : "string"
+    }, {
+      "name" : "foodweb.name",
+      "titles" : "foodweb.name",
+      "datatype" : "string"
+    } ]
+  }
+}
