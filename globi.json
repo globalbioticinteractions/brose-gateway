@@ -174,11 +174,11 @@
       "titles" : "depth",
       "datatype" : "string"
     }, {
-      "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+      "name" : "sampling.time",
       "titles" : "sampling.time",
       "datatype" : "string"
     }, {
-      "name" : "sampling.start.year",
+      "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
       "titles" : "sampling.start.year",
       "datatype" : "string"
     }, {
