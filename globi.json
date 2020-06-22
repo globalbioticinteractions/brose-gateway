@@ -174,7 +174,7 @@
       "titles" : "depth",
       "datatype" : "string"
     }, {
-      "name" : "eventDate",
+      "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
       "titles" : "sampling.time",
       "datatype" : "string"
     }, {
