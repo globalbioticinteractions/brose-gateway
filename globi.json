@@ -3,7 +3,8 @@
     "@language" : "en"
   } ],
   "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-  "url" : "https://idata.idiv.de/mmm/ShowMultimediaData/getFile/?path=Datasets%255c283%255c283_2_FoodWebDataBase_2018_12_10.csv",
+  "_url" : "https://idata.idiv.de/MMM/ShowMultimediaData/getFile?path=Datasets%255c283%255c283_2_FoodWebDataBase_2018_12_10.csv",
+  "url" : "283_2_FoodWebDataBase_2018_12_10.csv.gz",
   "dcterms:bibliographicCitation" : "Brose, U. (2018). GlobAL daTabasE of traits and food Web Architecture (GATEWAy) version 1.0 [Data set]. German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig. https://doi.org/10.25829/IDIV.283-3-756",
   "delimiter" : ",",
   "headerRowCount" : 1,
